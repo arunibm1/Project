@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./project1.css">
+    <title>Web Tech Project</title>
+    <script src="https://kit.fontawesome.com/d47f078651.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">service</a></li>
+                    <li><a href="#portfolic">Portfolic</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi,I,m <span>Arun</span><br> Kumar From USA</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------about-------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="./8610703063.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Being polite is an important part of being a good boy. 
+                    Being polite means treating others with kindness and respect, 
+                    avoiding being vulgar, and showing a kind interest in people. 
+                    It also means avoiding any offensive topics or being rude to the people you don't like.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('language')">Language</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>Web Tech</li>
+                            <li><span>Microsoft Office</span><br>Project Development</li>
+                            <li><span>Backend Development</span><br>Structured Query Language</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="language">
+                        <ul>
+                            <li><span>JAVA</span><br>java standards</li>
+                            <li><span>SQL</span><br>DDL(Data Definition Language</li> DML (Data manipulation Language)
+                            <li><span>WEB TECH</span><br>HTML</li>CSS <li>JS</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>B.E(ECE) from NSN Tamilnadu</li>
+                            <li><span>2019</span><br>HSC from  GHSS Tamilnadu</li>
+                            <li><span>2017</span><br>SSLC from  GHSS Tamilnadu</li>
+                        </ul>
+                    </div>        
+            </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------service--------->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>the creation of websites and pages to reflect a company's brand and
+                         information and ensure a user-friendly experience.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX design</h2>
+                    <p> design accurate hi-fi wireframes, mockups, and prototypes and render minimally viable products. 
+                        They represent the nuts and bolts of a design, communicating its functionality.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    
+                    <h2>App design</h2>
+                    <p>App design is the look and feel of a mobile application.
+                         This includes all of the visual elements and interactive elements that impact how the app functions. </p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------------portfolic----------------->
+<div id="portfolic">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="./work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="./work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                    Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> arunkumarak47111@example.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 9688584838</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+
+                <a href="./ARUN CV.docx" download class="btn btn2">Download CV</a>
+            </div>
+
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Rohit. made with <i class="fa-solid fa-heart"></i> by Web Tech </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./project1.js"></script>
+
+
+
+    
+</body>
+</html>
